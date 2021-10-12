@@ -1,0 +1,171 @@
+<html>
+  <body bgcolor="EEEEEE" align="center">
+
+  <div style="text-align: center;">
+  <br>
+
+
+
+  <tr>
+  <th style="font-size:150%;000000">  <br>Great War - The Last Stand, March 1918<br>  </th>
+  </tr>
+  <th<b>a Lebowski mod of Great War</b></th>
+  </tr>
+  </table>
+  <br>
+  <br>
+
+  <tr>
+  <th style="font-size:110%;000000"colspan="2">Version 3.0.3.1</th>
+  </tr>
+  </table>
+  <br>
+  <br>
+					  
+					      
+					  
+					  
+					  A scenario based on early 1918...
+					  <br>The Western Front has bogged down into trench warfare.
+					  <br>In the East, the Bolshevik revolution is shocking the world and the  Cossacks are trying hold on to power. 
+					  <br>On the high seas, Kriegmarine was pinned into Baltic giving British naval free roam in the ocean.
+					  <br>Romania is in revolt. 
+					  <br>Elsewhere, smaller battles are being waged for control of Africa and the Middle East.  
+					  <br>Japan is assurting thier independance yet not truely going to war with the Allies.
+					  <br>
+					  <br><h2>Allied Powers</h2>
+					  <br>British Empire   (Capital: London)
+					  <br>France           (Capital: Paris)
+					  <br>White Russians   (Capital: Kyrgyz)
+					  <br>Italy            (Capital: Rome)
+					  <br>United States    (Capital: United States)
+					  <h2>Central Powers</h2>
+					  <br>German Empire    (Capital: Berlin)
+					  <br>Austria-Hungary  (Capital: Vienna)
+					  <br>Ottoman Empire   (Capital: Istanbul)
+					  <br><h2>Communists</h2>
+					  <br>Bolsheviks       (Capital: Petrograd)
+					    
+					    <br>AI_Revolutionaries are attacking neutral power that can use the impassable zones.
+					    
+					  <br><h2>Unit definitions (attack, defend, movement, cost) </h2>
+					  <br>infantry:          1/2/1/3  (artillery supportable)
+					  <br>militia:           1/2/1/2 
+					  <br>stormtrooper:      3/2/2/5  (blitz, artillery supportable)
+					  <br>gas engineer:      3/1/1/4
+					  <br>M. gas engineer:   5/0/1/5 
+					  <br>cavalry:           1/1/2/4  (blitz, artillery supportable)
+					  <br>Elite Cossack:     2/2/3/6  (blitz, artillery supportable, supports as artillery)
+					  <br>artillery:         2/2/1/4  (supports as artillery)
+					  <br>Big Bertha:        5/4/1/8
+					  <br>tank:              3/3/1/10 (2 hit unit)
+					  <br>advanced tank:     4/3/1/12 (supports as artillery, 2 hit unit)
+					  <br>fortification:     0/0/0/3  (supports as artillery, can be sbr'ed, max 10 per territory/1 per round per territory)
+					  <br>aagun:             0/0/1/5  (aa against air attacks, moves in non combat)
+					  <br>fighter:           2/3/3/8
+					  <br>zeppelin:          4/2/6/14 (can SBR)
+					  <br>navalmine:         0/1/0/2
+					  <br>transport:         0/0/2/8  (can carry 1 infantry + 1 other ground unit or 2 infantry)
+					  <br>submarine:         2/2/2/6  (submerge, sneak attack)
+					  <br>gunboat:           2/2/2/6
+					  <br>destroyer: 3/3/2/16 (detects sub, UK only)
+					  <br>cruiser:           3/3/2/10
+					  <br>battlecruiser:     4/4/2/14 (can bombard)
+					  <br>battleship:        4/4/2/18 (2 hit) 
+					  <br>SuperDreadnaught:  4/4/24   (is offensive aa all sea battle units, transport, can bombard)
+					  <br>
+					  <br>Big Bertha's, Tanks, Advanced Tanks, SuperDreadnaughts and both Gas Engineers can only be placed 1 of each type per factory per turn.
+					  <br>The territory must be owned at the start of your turn to be able to place.
+					  <br>Example: You can place a tank and Big Bertha in the same territory in the same turn but not 2 tanks, if the factory is owned at start of turn.
+					  <br>
+					  <br>You cannot place a special unit type if there is one of the same unit type currently in the same territory.
+					  <br>This does not apply to the Bolshevik tanks.
+					  <br>Unplaced units live.
+					  <br><h2>Map Information</h2>
+					  <br>
+						  This map is based on a unique projection developed specifically for the Great War variant 
+						  and is designed to take full advantage of the map scaling feature in TripleA.  
+					  <br>The desire to highlight the Western Front, while still giving the game a truly world-wide scope, 
+						  required that some abstractions were made to the map.
+					  <br>These include several game boxes/inserts which connect to the major areas of conflict 
+						  around Europe, Africa and the Middle East. 
+					  <br> * Cairo and Istanbul are canals.
+					  <br>Yes, the multinational force in Arkhangelsk is supposed to be there...ect.
+					
+					    
+					<b>Changelog v3.0.3.1</b>
+					placement changes
+					Spanish Morocco is now fully impassable
+					removed Persia Transcaspia connect
+					it influnanced AI purchase...
+					properties changes(will list full ruleset)
+					properties/unit changes in the maps folder
+			              <b>Changelog v3.0.3</b>
+					    Changed map folder/files for GW compatablity 
+			                    changed unit art some more (otto's cavalry;)
+					    Custom step headers!
+					    changed gunboat name back to destroyer for capatability with GW still works right 4 rules
+					    changed advancedDestroyer to destroyer in name only
+					    all impassables are handled with player rules now
+					    the only faction that can enter them are AI_Revolutionaries
+					    (impassable expection: Bolsheviks in Norway)
+					    German S. Pacific and Tsingtao are now British but in conflict.
+					    !!!!!!!(not explained in notes yet)
+					    !most true Neutral are AI_Revolutionaries now,
+					    They and only they can move/place on the game start "impassable" territories
+					    Spain is the capital
+					    placement is max 3 units
+					    they cannot place if there is 10 or more units on the territory
+					    they CAN place on new captures
+					    their attack move is after their endRoundStep...
+					    creates conflict zones;)
+					<!--(not implemented, but coded)made Merchant_Attack tranports
+					    transports attack subs as offensive aa 1rd @1 if subs are alone-->
+					    
+			<b>Changelog v3.0.2</b>
+					    fixed AI not buying due to placement limit
+					    fixed subs in convoys and bbertha movement
+					    dread is 4/4 now since it's devistation on the water...still...
+					    fixed fort support with Carthage Campain patch ;)
+					    various bugs
+					    
+			<b>Changelog v3.0.1</b>
+					  fixed production
+					  took away bb bombard
+					  added air battle till done or attacker retreats
+					  fortification now gives support like artillery
+					  fortification can be sbred
+					  air escorts/intercepts
+					  SuperDreadnaught is now only an attack aa against all sea/air units but subs
+					  it is multi round
+					  subs submerge pre strike without adv dd
+					  many new rule additions(read xml list)
+					  some unit art and map.properties.txt changes
+					  
+		<b>Changelog v2</b>
+  <br>changed forth edition rules to ww2v2
+    fixed dd by renaming to gunboat
+      placement limits on strong units
+      made Bolshevik AI by default
+					  I mostly updated the game to the current 1.7.0.3 engine standards while also converting it to the newer GW 4.3 map base.
+					<br>Due to the new map base there have been some pu and unit changes. 
+					<br>Ones worthy of mention are:
+					  <br>
+					<br> PU changes:
+					<br>Germany is +1 now due to Lithuania/Belurus/Livonia
+  <br>Bolsheviks +1 due to Moscow
+  <br>WhiteRussians +1 due to Kygyz
+  <br>Austrians the starting PU looks the same but Romania is handled different and it's really + 1 due to Carpathia
+  <br>Ottomans +1 due to the sz 62 convoy zone 
+  <br>Italians +1 due to the sz 55 convoy zone
+    <br>
+      <br>
+  Unit changes:
+    <br>Germany, White Russians and the Bolsheviks have 1 more infantry each in the Eastern Front.
+      <br>
+	<br>
+  I think this balances out the change with the new map base and makes the eastern front slightly more dynamic while encouraging action in the med too.
+    <br>
+      <br>
+  There was some unit art changes and I also adjusted unit values to match Lebowski's notes. Cossacks now blitz, support, ect.
+    <br>

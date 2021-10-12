@@ -1,0 +1,4 @@
+map_name: Great_War-TLS-March1918
+games:
+- {game_name: Great War-TLS-March1918, file_name: Great_War-TLS-March1918.xml}
+version: 0
